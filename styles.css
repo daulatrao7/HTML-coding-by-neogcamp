@@ -2,11 +2,14 @@
 
 
 :root{
-    --primary-color: rgb(191, 7, 247);
+    --primary-color: #6EE7B7;
 }
 
 body {
     font-family: 'Rubik', sans-serif;
+}
+hr{
+    margin: 2rem 0rem;
 }
 
 .container {
@@ -32,4 +35,13 @@ body {
     color: var(--primary-color);
     border-radius: 0.3rem;
     border: 1px solid var(--primary-color);
+}
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
