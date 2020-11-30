@@ -71,3 +71,14 @@ hr{
     display: block;
     margin: auto;
 }
+
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.yl{
+    background-color: rgb(250, 240, 183);
+}
