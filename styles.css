@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color: #b16cdf;
+    --primary-color: #6cdfd9;
 }
 
 body {
@@ -44,6 +44,10 @@ hr{
 .list-inline{
     display: inline;
     padding: 0rem 0.5rem;
+}
+.navigation .link-active{
+    font-weight: bold;
+
 }
 
 .navigation{
