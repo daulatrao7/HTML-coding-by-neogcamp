@@ -72,13 +72,13 @@ hr{
 
 .hero-heading{
     padding: 3rem;
-    text-align: center;
+    text-align: inherit;
     color: darkgray;
 }
 .hero-img{
     max-width: 350px;
     display: block;
-    margin: auto;
+    margin: 1%;
 }
 
 .section{
