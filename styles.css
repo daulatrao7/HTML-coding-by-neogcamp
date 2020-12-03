@@ -35,8 +35,16 @@ hr{
     color: var(--primary-color);
     border-radius: 0.3rem;
     border: 1px solid var(--primary-color);
-}
 
+}
+.primary-link:hover{
+    background-color: #ffffff;
+  color: rgb(159, 252, 244);
+}
+.secondary-link:hover{
+    background-color: #82f8e8;
+  color: white;
+}
 .non-bullet{
     list-style: none;
 }
@@ -89,7 +97,7 @@ hr{
 }
 
 .yl{
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(235, 235, 235);
 }
 .footer{
     background-color: var(--primary-color);
