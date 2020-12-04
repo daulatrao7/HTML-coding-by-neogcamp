@@ -77,13 +77,16 @@ hr{
 .navigation .link{
     color: white;
 }
-
+.heading-inverted{
+    color: var(--primary-color);
+}
 .hero-heading{
     padding: 3rem;
     text-align: center;
     color: darkgray;
 }
 .hero-img{
+    padding-top: 5rem;
     max-width: 350px;
     display: block;
     margin: auto;
