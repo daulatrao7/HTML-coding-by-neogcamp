@@ -16,10 +16,10 @@ hr{
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
 .container-center{
     max-width: 600px;
     margin: auto;
+    margin-bottom: 36px;
 }
 .link{
     text-decoration: none;
@@ -82,13 +82,13 @@ hr{
 }
 .hero-heading{
     padding: 3rem;
-    text-align: center;
+    text-align: left;
     color: darkgray;
 }
 .hero-img{
     padding-top: 5rem;
     max-width: 350px;
-    display: block;
+    display: inline;
     margin: auto;
 }
 
@@ -115,4 +115,11 @@ hr{
 }
 .footer.link{
     color: white;
+}
+
+.flex-wrap{    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
 }
