@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color: #6cdfd9;
+    --primary-color: #8eb5ff;
 }
 
 body {
@@ -55,6 +55,7 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+    font-style: italic;
 
 }
 
